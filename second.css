@@ -1,0 +1,62 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .parents{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+ }
+
+
+ #btn{
+   height: 30px;
+   width: 80px;
+   border-radius: 10px;
+   border: solid red;
+   background-color: red;
+   color: white;
+
+ }
+#wrapper{
+    width: 68%;
+    height: 78vh;
+    background-color: #FF9B45;
+    text-align: center;
+    border-radius: 20px;
+}
+#quiz{
+    padding: 50px;
+}
+#question{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.option{
+    padding-top: 25px;
+    font-size: 18px;
+}
+.click{
+    display: flex;
+    justify-content: space-around;
+}
+#first{
+    padding: 8px 30px;
+    background-color:brown;
+    color: white;
+    border: solid #FF9B45;
+    border-radius: 10px;
+
+}
+#second{
+    padding: 8px 30px;
+    background-color:red;
+    color: white;
+    border: solid #FF9B45;
+    border-radius: 10px;
+
+}
+
+
